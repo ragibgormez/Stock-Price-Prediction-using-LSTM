@@ -77,7 +77,6 @@ After training the model, you can use the `predict.py` script to make prediction
 **What happens when you run `predict.py`:**
 - The script loads the trained LSTM model from the `.keras` file.
 - It fetches the latest stock data for the specified ticker symbol.
-- It makes predictions on the next days of stock prices.
 - It plots the actual vs predicted stock prices and calculates the following error metrics: MSE, RMSE, MAE, and R².
 
 ## Code Explanation
