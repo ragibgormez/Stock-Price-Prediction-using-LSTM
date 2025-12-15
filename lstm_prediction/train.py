@@ -3,9 +3,7 @@
 Training LSTM model for stock price prediction using yfinance data.
 The model predicts future stock prices without using a database.
 """
-"""
-coditor testing
-"""
+
 
 import yfinance as yf
 import numpy as np
